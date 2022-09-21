@@ -10,8 +10,8 @@
 
 let APIModule = function() {
      /*retrive this info by registering an app in your spotify dev account*/
-   const clientSecret = '';
-   const clientID = '';
+   const clientSecret = '7eb173c01c1e48a095f8ffa766264708';
+   const clientID = 'f2f427cda2d1455fbb9af8892b388adc';
 
     //OAuth2's client credentials flow to acquire the access token
    let retrieveToken = async() => {
